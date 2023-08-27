@@ -175,7 +175,7 @@ See the `SuperBlocks` enum at the beginning of the same file for the full list o
 
 Next, open the [`client/src/utils/algolia-locale-setup.ts`](https://github.com/freeCodeCamp/freeCodeCamp/blob/main/client/src/utils/algolia-locale-setup.ts) file. This data is used for the search bar that loads `/news` articles. While it is unlikely that you are going to test this functionality, missing the data for your language can lead to errors when attempting to build the codebase locally.
 
-Add an object for your language to the `algoliaIndices` object. You should use the the same values as the `english` object for local testing, replacing the `english` key with your language's `availableLangs` value.
+Add an object for your language to the `algoliaIndices` object. You should use the same values as the `english` object for local testing, replacing the `english` key with your language's `availableLangs` value.
 
 > [!NOTE]
 > If we have already deployed an instance of news in your target language, you can update the values to reflect the live instance. Otherwise, use the English values.
